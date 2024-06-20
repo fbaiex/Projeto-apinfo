@@ -1,0 +1,76 @@
+* {
+    text-decoration: none;
+}
+
+.topo {
+    background-color: #e4b308;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.link-apinfo {
+    text-align: center;
+}
+
+.apinfo {
+    padding-right: 300px;
+}
+
+.menu-inicial {
+    display: flex;
+    padding-top: 20px;
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+button .fale-conosco-botao {
+    color: white;
+    text-decoration: none;
+}
+
+
+.container-pesquisa {
+    background-color: #0477b8;
+    padding: 30px;
+    width: 940px;
+    margin: 0 auto;
+}
+.div-pesquisa {
+    display: flex;
+}
+
+.pesquisa-vagas {
+    text-decoration: none;
+}
+
+.pesquisa-cv {
+    color: white;    
+}
+
+.buscas {
+    background-color: gray;
+    float: left;
+    width: 80%;
+    padding: 10px 2px;
+    border: none;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container .mini-texto {
+    display: inline-block;
+    width: 200px;
+}
+
+.mini-texto p {
+    margin: 0 0 10px 0;
+    text-align: center;
+    font: inherit;
+}
+
