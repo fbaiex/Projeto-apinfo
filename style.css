@@ -79,9 +79,65 @@ button .fale-conosco-botao {
     padding-right: 700px;
 }
 
+.bons-curriculos {
+    border: 1px solid;
+}
+
+h2 {
+    text-align: center;
+}
+
 .pesquisa-link-fundo {
     color: blue;
     background-color: #F3F781;
-    text-align: center;
     margin-top: 30px;
+}
+
+.pesquisa-link-fundo2 {
+    background-color: #F3E2A9;
+}
+
+.espaco {
+    margin-left: 30px;
+}
+
+.bons-curriculos .div-curriculo1 {
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+}
+
+.div-curriculo2 {
+    border-bottom: 1px solid #ccc;
+}
+
+.boas-vagas-borda {
+    border: 1px solid;
+}
+
+.boas-vagas-link {
+    border-bottom: 1px solid #ccc;
+}
+
+.h2-vagas {
+    text-align: left;
+}
+
+.forum-depoimentos {
+    border-bottom: 2px solid #ccc;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.botao-forum {
+    text-decoration: none;
+}
+
+.footer1 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1px;
+    display: flex;
+}
+
+.footer-espaco {
+    padding-left: 5px;
 }
