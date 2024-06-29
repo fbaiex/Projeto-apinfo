@@ -5,8 +5,8 @@
 .topo {
     background-color: #e4b308;
     text-align: center;
-    padding: 3px;
-    font-size: 20px;
+    padding: 1rem;
+    font-size: 2rem;
 }
 
 .link-apinfo {
@@ -14,13 +14,13 @@
 }
 
 .apinfo {
-    padding-right: 300px;
+    padding-right: 30rem;
 }
 
 .menu-inicial {
     display: flex;
     padding-top: 20px;
-    width: 700px; 
+    width: 70rem; 
     margin-left: auto;
     margin-right: auto; 
 }
@@ -34,9 +34,23 @@ button .fale-conosco-botao {
 .container-pesquisa {
     background-color: #0477b8;
     padding: 30px;
-    width: 940px;
+    width: 64rem;
     margin: 0 auto;
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    transform: translate3d(5px, 28px, 0px); /* distancia entre menu e btn */
+    top: 10px;
+    left: 0px;
+    will-change: transform;
+}
+.dropdown {
+    display: inline-block; /* deixa o LO do "tamanho do próprio texto" e não da largura inteira da tela*/
+    list-style: none; /* rita a "bolinha" do LI*/
+}
+
 .div-pesquisa {
     display: flex;
 }
@@ -58,7 +72,7 @@ button .fale-conosco-botao {
 }
 
 .container {
-    width: 960px;
+    width: 64rem;
     margin: 0 auto;
     padding-bottom: 10px;
 }
@@ -141,3 +155,11 @@ h2 {
 .footer-espaco {
     padding-left: 5px;
 }
+
+@media (max-width: 768px) {
+    /* Exemplo de estilo para telas menores que 768px de largura */
+    .dropdown-toggle {
+      font-size: 14px;
+    }
+    /* Outros estilos responsivos */
+  }
