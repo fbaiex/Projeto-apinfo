@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="teste.js"></script>    
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <title>APinfo</title>
 </head>
 <body class="accessibility">
@@ -92,145 +92,157 @@
     </div>
 
 
-    <div id="content" class="container-pesquisa">
+    <div class="displaydividido">
+    <div class="ladoesquerdo">
+        <section>
+            <h5>
+                Filtro de pesquisas
+            </h5>
+        </section>
+
+        <a href="#">
+            limpar filtro
+        </a>
+        <h4>
+            Data:
+        </h4>
+        <p>
+            De:
+        </p>
+            <input type="date" name="de">
+            <hr/>
+        <p>
+            Até:
+        </p>
+        <input type="date" name="ate">
+            <hr/>
+        <p>
+            Palavras-chave:
+        </p>
+
+        <form>
+            <input class="buscas" type="text" id="fname" name="fname" value="Digite aqui a palavra-chave">
+            <button class="btn btn-light" type="button">
+                <a class="pesquisa-vagas" href="#">
+                    Buscar
+                </a>   
+            </button>
+        </form>
+            <hr/>
+
+        <section>
+            <p>
+                <input type="radio" name="opcao">
+                    Pesquisa apenas no título da vaga.
+            </p>
+
+            <p>
+                <input type="radio" name="opcao">
+                Pesquisar: Titulo/Descrição/Cidade.
+            </p>
+                <hr/>
+
+            <input type="submit" value="filtrar">
+        </section>
+            <hr/>
+            <br/>
+        <section>
+            <h5>
+                Estado:
+            </h5>
+                    <hr/>
+                <input type="checkbox" value="sp">
+                    São Paulo
+                    <br/>
+                    
+                <input type="checkbox" value="rj">
+                    Rio de Janeiro
+                    <hr/>
+
+
+            <h5>
+                Cidade:
+            </h5>
+                <select required>
+                    <option value="sp">São Paulo</option>
+                    <option>option1</option>
+                    <option>option2</option>
+                    <option>option3</option>
+                    <option>option4</option>
+                </select>
+
+                <h5>
+                    Cargo:
+                </h5>
+                <input type="text">
+        </section>
+
         
-        <div id="content" class="div-pesquisa">
-            <div id="content" class="pesquisa">
-                <button class="btn btn-light" type="button">
-                    <a class="pesquisa-vagas" href="#">
-                        Pesquise por vagas
-                    </a>   
-                </button>
 
-                <a class="pesquisa-cv" href="#">
-                    Pesquise por Currículos
-                </a>
-            </div>
-
-        </div>
-
-        <div id="content" class="digitar-texto">
-            <form>
-                <input class="buscas" type="text" id="fname" name="fname">
-                <button class="btn btn-light" type="button">
-                    <a class="pesquisa-vagas" href="#">
-                        Buscar
-                    </a>   
-                </button>
-            </form>
-        </div>
-    </div>    
-
-    <div id="content" class="container">
-
-        <div id="content" class="mini-texto">
-            <p>
-                Novas vagas ao longo de todo o dia. Pesquise oportunidades para sua carreira 
-            </p>
-            
-        </div>
-        <div id="content" class="mini-texto">
-            <p>
-                Inclua seu Curriculum grátis por tempo ilimitado e concorra a todas as vagas 
-            </p>
-            
-        </div>
-
-        <div id="content" class="mini-texto">
-            <p>
-                Tire suas dúvidas e também responda a dúvidas de outros usuários, participe!!! 
-            </p>
-
-        </div>
-
-        <hr>
     </div>
 
-    <div id="content" class="pesquisa-link">
-        <div id="content" class="pesquisa-link-fundo">
-            <a href="paginas/paginavagassap.html"><h2>Pesquise Vagas para SAP</h2></a>
-        </div>
+    <div class="centro">
 
-        <div id="content" class="pesquisa-link-fundo">
-            <a href="#"><h2>Pesquise Vagas para Estágiarios</h2></a>
-        </div>
+        <h3>
+            Resultado da pesquisa:
+        </h3>
+            <hr/>
 
-        <h2>
-            Bons Currículos
-        </h2>
-        <div id="content" class="bons-curriculos">
+        <h4>
+            Arquiteto de SAP
+        </h4>
+        <p>
+            A Sysmap está com uma oportunidade para atuar como Arquiteto SAP BTP em um de nossos clientes 
+            do ramo de cosméticos. 
+            
+            Modelo híbrido - 2x semana no cliente (São Paulo, SP). 
+            Contratação CLT. 
+            
+            Atuação com desenho e implantação de arquitetura corporativa, soluções e de software, 
+            implementando melhorias de acordo com as exigências e necessidades do projeto e colaborando com 
+            colegas e pares, gerindo e direcionando tecnicamente o time em que estiver atuando. 
+            Definir arquiteturas de integração técnica com foco em serviços de integração específicos 
+            Definir especificações técnicas para cenários de integração baseados em requisitos empresariais 
+            Definir melhores práticas para desenvolvimentos de extensões SAP (Abap, Node.JS, etc) 
+            Definir e comunicar padrões, modelos e melhores práticas 
+            Definir uma arquitetura de integração que seja escalável, resiliente, com as melhores práticas de 
+            segurança e que seja monitorada. 
+            Construir o desenho de soluções e propor melhorias						
 
-            <div id="content" class="div-curriculo1">
-                <a href="#">Engenheiro de software</a>
-            </div>
+            Empresa .....: Sysmap Solutions
+            Código .......: 73409
+        </p>
+        <button>
+            Enviar seu Curriculo
+        </button>
 
-            <div id="content" class="div-curriculo1 espaco">
-                <a href="#">Programador / Desenvolvedor</a>
-            </div>
+        <h4>
+            Consultor SAP Jr
+        </h4>
+        <p>
+            Perfil MM voltado a migração de dados. 
+ 
+            - Deve ter disponibilidade para atuar 3x por semana presencial em São Bernardo do Campo - SP 
+            - Deve ter conhecimento em Inglês avançado (domínio de conversação) 
+            - Contratação PJ						
+            
+            Empresa .....: Abc Technology
+            Código .......: 73375 
+        </p>
+        <button>
+            Enviar seu Curriculo
+        </button>
 
-            <div id="content" class="div-curriculo2">    
-                <a href="#">Engenheiro de software</a>
-            </div>
+        <section>
+            <a href="#">&lt;&lt; Voltar</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">Proxima &gt;&gt;</a>
+        </section>
 
-            <div id="content" class="div-curriculo2 espaco">
-                <a href="#">Programador / Desenvolvedor</a>
-            </div>
-
-        </div>    
-
-        <div id="content" class="pesquisa-link-fundo">
-            <a href="#"><h2>Pesquise Vagas para SAP</h2></a>
-        </div>
-
-        <div id="content" class="pesquisa-link-fundo2">
-            <a href="#"><h2>Pesquise Vagas para SAP</h2></a>
-        </div>
-
-        <div id="content" class="boas-vagas-borda">
-
-            <h2 class="h2-vagas">
-                Vagas Recentes
-            </h2>
-
-            <div id="content" class="boas-vagas">
-                <div id="content" class="boas-vagas-link">
-                    <a href="#">
-                        Scrum Master
-                    </a>
-                </div>
-
-                <div id="content" class="boas-vagas-link">
-                    <a href="#">
-                        Engenheiro Cloud
-                    </a>
-                </div>
-
-                <div id="content" class="boas-vagas-link">
-                    <a href="#">
-                        Desenvolvedor de Dados
-                    </a>
-                </div>
-
-                <div id="content" class="boas-vagas-link">
-                    <a href="#">
-                        Desenvolvedor Node
-                    </a>
-                </div>
-
-                <div id="content" class="boas-vagas-link">
-                    <a href="#">
-                        Analista de Suporte Pleno
-                    </a>
-                </div>
-
-                <div id="content" class="boas-vagas-link">
-                    <a href="#">
-                        Arquiteto de Data BI
-                    </a>
-                </div>
-            </div>
-
-        </div>
+    </div>
+    </div>
 
         <div id="content" class="parte-baixo">
             <div id="content" class="forum-depoimentos">

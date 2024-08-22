@@ -1,0 +1,11 @@
+body {
+    background-color: red;    
+    color: green;
+}
+
+.accessibility {
+    /* Exemplo de estilos para o modo de acessibilidade */
+    background-color: black;
+    color: white;
+    /* Adicione mais estilos conforme necessário */
+  }

@@ -2,6 +2,18 @@
     text-decoration: none;
 }
 
+body {
+    background-color: red;    
+    color: green;
+}
+
+.accessibility {
+    /* Exemplo de estilos para o modo de acessibilidade */
+    background-color: black;
+    color: white;
+    /* Adicione mais estilos conforme necessário */
+  }
+
 .topo {
     background-color: #e4b308;
     text-align: center;
@@ -163,3 +175,7 @@ h2 {
     }
     /* Outros estilos responsivos */
   }
+
+.displaydividido {
+    display: flex;
+}
