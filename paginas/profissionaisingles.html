@@ -7,8 +7,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="teste.js"></script>    
-    <link rel="stylesheet" href="style.css">
-    <title>APinfo</title>
+    <link rel="stylesheet" href="../style.css">
+    <title>APinfo - Profissionais com ingles</title>
 </head>
 <body class="accessibility">
     <button class="contrasteOn">Ativar Contraste</button>
@@ -92,145 +92,142 @@
     </div>
 
 
-    <div id="content" class="container-pesquisa">
+    <div class="displaydividido">
+    <div class="ladoesquerdo">
+        <section>
+            <h5>
+                Filtro de pesquisas
+            </h5>
+        </section>
+
+        <a href="#">
+            limpar filtro
+        </a>
+        <h4>
+            Data:
+        </h4>
+        <p>
+            De:
+        </p>
+            <input type="date" name="de">
+            <hr/>
+        <p>
+            Até:
+        </p>
+        <input type="date" name="ate">
+            <hr/>
+        <p>
+            Palavras-chave:
+        </p>
+
+        <form>
+            <input class="buscas" type="text" id="fname" name="fname" value="Digite aqui a palavra-chave">
+            <button class="btn btn-light" type="button">
+                <a class="pesquisa-vagas" href="#">
+                    Buscar
+                </a>   
+            </button>
+        </form>
+            <hr/>
+
+        <section>
+            <p>
+                <input type="radio" name="opcao">
+                    Pesquisa apenas no título da vaga.
+            </p>
+
+            <p>
+                <input type="radio" name="opcao">
+                Pesquisar: Titulo/Descrição/Cidade.
+            </p>
+                <hr/>
+
+            <input type="submit" value="filtrar">
+        </section>
+            <hr/>
+            <br/>
+        <section>
+            <h5>
+                Estado:
+            </h5>
+                    <hr/>
+                <input type="checkbox" value="sp">
+                    São Paulo
+                    <br/>
+                    
+                <input type="checkbox" value="rj">
+                    Rio de Janeiro
+                    <hr/>
+
+
+            <h5>
+                Cidade:
+            </h5>
+                <select required>
+                    <option value="sp">São Paulo</option>
+                    <option>option1</option>
+                    <option>option2</option>
+                    <option>option3</option>
+                    <option>option4</option>
+                </select>
+
+                <h5>
+                    Cargos:
+                </h5>
+                <input type="text">
+        </section>
+
         
-        <div id="content" class="div-pesquisa">
-            <div id="content" class="pesquisa">
-                <button class="btn btn-light" type="button">
-                    <a class="pesquisa-vagas" href="#">
-                        Pesquise por vagas
-                    </a>   
-                </button>
 
-                <a class="pesquisa-cv" href="#">
-                    Pesquise por Currículos
-                </a>
-            </div>
-
-        </div>
-
-        <div id="content" class="digitar-texto">
-            <form>
-                <input class="buscas" type="text" id="fname" name="fname">
-                <button class="btn btn-light" type="button">
-                    <a class="pesquisa-vagas" href="#">
-                        Buscar
-                    </a>   
-                </button>
-            </form>
-        </div>
-    </div>    
-
-    <div id="content" class="container">
-
-        <div id="content" class="mini-texto">
-            <p>
-                Novas vagas ao longo de todo o dia. Pesquise oportunidades para sua carreira 
-            </p>
-            
-        </div>
-        <div id="content" class="mini-texto">
-            <p>
-                Inclua seu Curriculum grátis por tempo ilimitado e concorra a todas as vagas 
-            </p>
-            
-        </div>
-
-        <div id="content" class="mini-texto">
-            <p>
-                Tire suas dúvidas e também responda a dúvidas de outros usuários, participe!!! 
-            </p>
-
-        </div>
-
-        <hr>
     </div>
 
-    <div id="content" class="pesquisa-link">
-        <div id="content" class="pesquisa-link-fundo">
-            <a href="paginas/paginavagassap.html"><h2>Pesquise Vagas para SAP</h2></a>
-        </div>
+    <div class="centro">
 
-        <div id="content" class="pesquisa-link-fundo">
-            <a href="paginas/paginavagasestagio.html"><h2>Pesquise Vagas para Estágiarios</h2></a>
-        </div>
+        <h3>
+            Resultado da pesquisa:
+        </h3>
+            <hr/>
 
-        <h2>
-            Bons Currículos
-        </h2>
-        <div id="content" class="bons-curriculos">
+        
+        <p>
+            
+            <a href="#">586.845 - Analista Programador / Desenvolvedor - SP - São Paulo - Superior incompleto - Inglês Fluente</a>
+                <br/>
 
-            <div id="content" class="div-curriculo1">
-                <a href="#">Engenheiro de software</a>
-            </div>
+            Estudante de Análise e Desenvolvimentos de Sistemas pela UNINOVE em modalidade EAD. Cursando o primeiro semestre de cinco. Inglês fluente e conhecimento básico de linguagens WEB (HTML, CSS, JavaScript) e banco de dados (MySQL).
 
-            <div id="content" class="div-curriculo1 espaco">
-                <a href="#">Programador / Desenvolvedor</a>
-            </div>
+        </p>
+            <hr/>
+        <p>
+            <a href="#">586.844 - Analista de BI / Big data - SP - São Paulo - Superior completo - Inglês Fluente</a>
+                <br/>
+            Com mais de 5 anos de experiência em tecnologia, sou um entusiasta de dados apaixonado por transformar dados em insights. Minha jornada profissional é marcada por contribuições significativas em empresas nacionais e multinacionais.
 
-            <div id="content" class="div-curriculo2">    
-                <a href="#">Engenheiro de software</a>
-            </div>
+        </p>
+            <hr/>
 
-            <div id="content" class="div-curriculo2 espaco">
-                <a href="#">Programador / Desenvolvedor</a>
-            </div>
+        <p>            
+            <a href="#">570.559 - Gerente de Contas / Comercial - SP - Indaiatuba - Superior completo - Inglês Fluente</a>
+                <br/>
+            Sólida experiência na área comercial, em funções de liderança de equipes comerciais, operacionais, administrativas e técnicas Sólida experiencia em negociações de contratos nos segmentos de MiddleMarket, Corporativos, Governo, Industrias e ISP
+        </p>
+            <hr/>
+        <p>
+            <a href="#">400.490 - Analista de Projetos - SP - Carapicuíba - MBA - Inglês Fluente</a>
+                <br/>
+            Gestão de escopo, prazo, plano de comunicação, reuniões de kick-off, status report, ATAs, elaboração de cronogramas, mapeamento e controle de riscos, validação das documentações, mapeamento para área de sustentação e encerramento do projeto.
 
-        </div>    
+        </p>
+        <section>
+            <a href="#">&lt;&lt; Voltar</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">Proxima &gt;&gt;</a>
+        </section>
 
-        <div id="content" class="pesquisa-link-fundo">
-            <a href="paginas/profissionaisingles.html"><h2>Pesquise curriculos de profissionais fluentes em inglês</h2></a>
-        </div>
-
-        <div id="content" class="pesquisa-link-fundo2">
-            <a href="paginas/paginavagasde40.html"><h2>Pesquise curriculos de profissionais com mais de 40 anos</h2></a>
-        </div>
-
-        <div id="content" class="boas-vagas-borda">
-
-            <h2 class="h2-vagas">
-                Vagas Recentes
-            </h2>
-
-            <div id="content" class="boas-vagas">
-                <div id="content" class="boas-vagas-link">
-                    <a href="#">
-                        Scrum Master
-                    </a>
-                </div>
-
-                <div id="content" class="boas-vagas-link">
-                    <a href="#">
-                        Engenheiro Cloud
-                    </a>
-                </div>
-
-                <div id="content" class="boas-vagas-link">
-                    <a href="#">
-                        Desenvolvedor de Dados
-                    </a>
-                </div>
-
-                <div id="content" class="boas-vagas-link">
-                    <a href="#">
-                        Desenvolvedor Node
-                    </a>
-                </div>
-
-                <div id="content" class="boas-vagas-link">
-                    <a href="#">
-                        Analista de Suporte Pleno
-                    </a>
-                </div>
-
-                <div id="content" class="boas-vagas-link">
-                    <a href="#">
-                        Arquiteto de Data BI
-                    </a>
-                </div>
-            </div>
-
-        </div>
+    </div>
+    </div>
 
         <div id="content" class="parte-baixo">
             <div id="content" class="forum-depoimentos">
